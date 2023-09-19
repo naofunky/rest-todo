@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Auth } from './features/Auth/components/Auth'
-import { Todo } from './features/Todo/Todo'
+import { Todo } from './features/Todo/components/Todo'
 import { useEffect } from 'react'
 import axios from 'axios'
 import { CsrfToken } from './types'
