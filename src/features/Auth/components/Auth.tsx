@@ -5,7 +5,7 @@ import {
   EyeIcon,
   EyeSlashIcon,
 } from '@heroicons/react/24/solid'
-import { useMutateAuth } from '../hooks/useMutateAuth'
+import { useMutateAuth } from '../../hooks/useMutateAuth'
 
 export const Auth = () => {
   const [email, setEmail] = useState<string>('')
