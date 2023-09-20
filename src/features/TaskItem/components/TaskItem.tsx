@@ -1,4 +1,4 @@
-import { FC, memo } from 'react'
+import React, { FC } from 'react'
 import { PencilIcon, TrashIcon } from '@heroicons/react/24/solid'
 import useStore from '../../../store'
 import { Task } from '../../../types'
@@ -33,4 +33,4 @@ const TaskItemMemo: FC<Omit<Task, 'created_at' | 'updated_at'>> = ({
     </li>
   )
 }
-export const TaskItem = memo(TaskItemMemo)
+export const TaskItem = React.memo(TaskItemMemo)
